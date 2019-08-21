@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: mmgd-security
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    servlet:
+      content-type: text/html
+    encoding: UTF-8
+  main:
+    banner-mode: console
+  resources:
+    static-locations: classpath:/static
+
+
+
+
+
+
